@@ -14,5 +14,14 @@ export default {
       },
     },
   },
+  fontFamily: {
+    body: ["Montserrat", "sans-serif"],
+  },
+  fontSize: {
+    big: "6.25rem",
+    h2: "1.25rem",
+    normal: "0.938rem",
+    small: "0.813rem",
+  },
   plugins: [],
 } satisfies Config;
