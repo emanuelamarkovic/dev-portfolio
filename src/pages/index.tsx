@@ -20,9 +20,11 @@ export default function Home() {
         <meta name="description" content="Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <Header />
-      </main>
+      <body>
+        <main>
+          <Header />
+        </main>
+      </body>
     </>
   );
 }
