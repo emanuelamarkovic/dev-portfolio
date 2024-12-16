@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Head from "next/head";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -11,5 +12,14 @@ const geistMono = Geist_Mono({
 });
 
 export default function Home() {
-  return <div></div>;
+  return (
+    <>
+      <Head>
+        <title>Portfolio</title>
+        <meta name="description" content="Portfolio" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <main></main>
+    </>
+  );
 }
