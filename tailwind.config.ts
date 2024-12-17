@@ -11,11 +11,15 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        first: "#1a1f27",
+        white: "#fafaff",
+        dark: "#cbd9e2",
+        text: "#f300b4",
       },
     },
   },
   fontFamily: {
-    body: ["Montserrat", "sans-serif"],
+    div: ["Montserrat", "sans-serif"],
   },
   fontSize: {
     big: "6.25rem",
