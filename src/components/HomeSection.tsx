@@ -10,36 +10,36 @@ const HomeSection = () => {
       id="home"
       style={{ height: "calc(100vh - 3rem)" }}
     >
-      {" "}
-      <div className="grid gap-20">
+      <div className="grid gap-20 ml-4">
         <h1 className="self-end text-dark text-[9rem] leading-[0.8]">
           <span className="text-shadow">Hello there!</span>
           <br />
           I'm Emanuela Markovic.
         </h1>
-        <div className="flex items-center justify-start mt-2">
+        <div className="flex space-x-4 mt-4">
           <Link
             href="/Resume_E_M.pdf"
             target="_blank"
             download={true}
-            className="flex items-center bg-black text-white px-6 py-2.5 mr-6 rounded-lg text-lg font-semibold border-2 border-transparent transition hover:bg-gray-600 hover:border-gray-400"
+            className="px-6 py-3 border border-dark text-dark text-center uppercase text-sm hover:border-text hover:text transition-all"
           >
             Resume
           </Link>
           <Link
             href="mailto:emanuela.markovic@hotmail.com"
-            target="_blank"
-            className="flex items-center bg-first text-white px-6 py-2.5 rounded-lg text-lg font-semibold border-2 border-transparent transition hover:bg-gray-600 hover:border-gray-400"
+            target={"_blank"}
+            className="px-6 py-3 bg-text text-first text-center uppercase text-sm font-bold hover:bg-transparent hover:text-text hover:border-text border border-text transition-all"
           >
             Contact
           </Link>
         </div>
+
         <Image
           src={profile}
           alt="Emanuela Markovic"
           className="absolute right-0 bottom-0"
-          width={295}
-          height={200}
+          width={495}
+          height={400}
         />
       </div>
     </section>
