@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import HomeSection from "@/components/HomeSection";
 import { Geist, Geist_Mono } from "next/font/google";
 import Head from "next/head";
@@ -22,6 +23,7 @@ export default function Home() {
       </Head>
       <main>
         <HomeSection />
+        <About />
       </main>
     </>
   );
