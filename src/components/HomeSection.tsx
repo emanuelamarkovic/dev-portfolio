@@ -6,12 +6,11 @@ import Image from "next/image";
 const HomeSection = () => {
   return (
     <section
-      className="relative bg-first overflow-hidden pt-[3.5rem]"
+      className="relative bg-first overflow-hidden h-screen flex flex-col justify-center items-start"
       id="home"
-      style={{ height: "calc(100vh - 3rem)" }}
     >
-      <div className="grid gap-20 ml-4">
-        <h1 className="self-end text-dark text-[9rem] leading-[0.8]">
+      <div className="ml-4">
+        <h1 className="text-dark text-[9rem] leading-[0.8]">
           <span className="text-shadow">Hello there!</span>
           <br />
           I'm Emanuela Markovic.
@@ -33,15 +32,15 @@ const HomeSection = () => {
             Contact
           </Link>
         </div>
-
-        <Image
-          src={profile}
-          alt="Emanuela Markovic"
-          className="absolute right-0 bottom-0"
-          width={495}
-          height={400}
-        />
       </div>
+
+      <Image
+        src={profile}
+        alt="Emanuela Markovic"
+        className="absolute right-0 bottom-0"
+        width={495}
+        height={400}
+      />
     </section>
   );
 };
