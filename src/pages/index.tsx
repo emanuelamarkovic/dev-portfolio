@@ -1,4 +1,5 @@
 import { Header } from "@/components/Header";
+import About from "@/components/About";
 import HomeSection from "@/components/HomeSection";
 import { Geist, Geist_Mono } from "next/font/google";
 import Head from "next/head";
@@ -21,10 +22,13 @@ export default function Home() {
         <meta name="description" content="Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
-        <Header />
-        <HomeSection />
-      </div>
+      <main>
+        <div>
+          <Header />
+          <HomeSection />
+          <About />
+        </div>
+      </main>
     </>
   );
 }
