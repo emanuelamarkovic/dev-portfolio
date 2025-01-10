@@ -1,4 +1,5 @@
 import HomeSection from "@/components/HomeSection";
+import ProjectSection from "@/components/ProjectSection";
 import { Geist, Geist_Mono } from "next/font/google";
 import Head from "next/head";
 
@@ -22,6 +23,7 @@ export default function Home() {
       </Head>
       <main>
         <HomeSection />
+        <ProjectSection />
       </main>
     </>
   );
