@@ -58,7 +58,7 @@ const Project: React.FC<ProjectProps> = ({
             href={repo}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-1/2 p-2 text-foreground border-b-2 border-text hover:bg-text hover:text-white text-center"
+            className="w-1/2 p-2 text-text border-b-2 border-text hover:bg-text hover:text-white text-center"
           >
             View source <i className="fas fa-external-link-alt ml-2" />
           </a>
@@ -66,7 +66,7 @@ const Project: React.FC<ProjectProps> = ({
             href={link}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-1/2 p-2 text-foreground border-b-2 border-text hover:bg-text hover:text-white text-center"
+            className="w-1/2 p-2 text-text border-b-2 border-text hover:bg-text hover:text-white text-center"
           >
             Try it Live <i className="fas fa-external-link-alt ml-2" />
           </a>
