@@ -1,10 +1,11 @@
 import { Header } from "@/components/Header";
-import About from "@/components/About";
 import HomeSection from "@/components/HomeSection";
 import ProjectSection from "@/components/ProjectSection";
 import { Geist, Geist_Mono } from "next/font/google";
 import Head from "next/head";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import Contact from "@/components/Contact";
+import About from "@/components/About";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,6 +35,7 @@ export default function Home() {
           <HomeSection />
           <About />
           <ProjectSection />
+          <Contact />
         </div>
       </main>
     </>

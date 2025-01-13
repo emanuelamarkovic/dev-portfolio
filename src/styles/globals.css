@@ -6,3 +6,7 @@
   --background: #121212;
   --foreground: #ffffff;
 }
+
+.clip-contact {
+  clip-path: polygon(0 0, 20% 100px, 100% 0, 100% 100%, 0 100%);
+}

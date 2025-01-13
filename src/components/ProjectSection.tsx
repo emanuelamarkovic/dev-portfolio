@@ -36,8 +36,12 @@ const ProjectSection: React.FC = () => {
             img="/images/codeknack.png"
             tech="js react vite"
             link="https://github.com/emanuelamarkovic/"
-            repo="https://github.com/emanuelamarkovic/codeknacker"
+            repo="https://emanuelamarkovic.github.io/codeknacker/"
           >
+            <small>
+              Built with React, Vite, MongoDB, and various libraries such as
+              React Router and React Spinners.
+            </small>
             <p>
               This game developed with JavaScript, React for dynamic user
               interfaces, and Vite for lightning-fast development.
@@ -52,6 +56,8 @@ const ProjectSection: React.FC = () => {
             link="https://emanuelamarkovic.github.io/Simple-Quiz-Game/index.html"
             repo="https://github.com/emanuelamarkovic/Simple-Quiz-Game"
           >
+            <small>Built with JavaScript, HTML, and CSS.</small>
+
             <p>
               This is a small collection of daily-tasks built with JavaScript,
               HTML, and CSS.
@@ -66,6 +72,10 @@ const ProjectSection: React.FC = () => {
             link="https://emanuelamarkovic.github.io/"
             repo="https://github.com/emanuelamarkovic/daily-tasks-frontend"
           >
+            <small>
+              Built using React Native, Expo, and various libraries such as
+              react-navigation, axios, and moment.
+            </small>
             <p>This is a small collection of JavaScript games.</p>
           </Project>
 
@@ -77,6 +87,10 @@ const ProjectSection: React.FC = () => {
             link="https://emanuelamarkovic.github.io/"
             repo="https://github.com/emanuelamarkovic/daily-tasks-backend"
           >
+            <small>
+              Built using Node.js, Express, MongoDB, and various libraries such
+              as Mongoose, bcrypt, and Cloudinary.
+            </small>
             <p>
               This is a small collection of JavaScript games with backend
               integration.
