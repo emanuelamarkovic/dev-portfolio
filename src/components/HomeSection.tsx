@@ -2,13 +2,21 @@ import Link from "next/link";
 import React from "react";
 import profile from "../../public/images/profile.png";
 import Image from "next/image";
+import useTypingEffect from "../hooks/useTypingEffect";
+
+const texts = [
+  "Frontend Developer",
+  "Backend Developer",
+  "Full-Stack Developer",
+];
 
 const HomeSection = () => {
+  const currentText = useTypingEffect(texts);
+
   return (
     <section
-      className="relative bg-first overflow-hidden pt-[3.5rem]"
+      className="relative bg-first overflow-hidden pt-[3.5rem] h-[calc(100vh-3rem)]"
       id="home"
-      style={{ height: "calc(100vh - 3rem)" }}
     >
       <div className="grid gap-20 ml-4">
         <h1 className="self-end text-dark text-[9rem] leading-[0.8]">
@@ -16,6 +24,12 @@ const HomeSection = () => {
           <br />
           I'm Emanuela Markovic.
         </h1>
+        <div className="text-container text-dark text-[3rem] ">
+          I am a{" "}
+          <span id="dynamic-text" className="highlight text-text text-[3rem]">
+            {currentText}
+          </span>
+        </div>
         <div className="flex space-x-4 mt-4">
           <Link
             href="/Resume_E_M.pdf"
