@@ -6,6 +6,7 @@ import Head from "next/head";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Contact from "@/components/Contact";
 import About from "@/components/About";
+import { Skills } from "@/components/Skills";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -38,6 +39,7 @@ export default function Home() {
           <Header />
           <HomeSection />
           <About />
+          <Skills />
           <ProjectSection />
           <Contact />
         </div>
