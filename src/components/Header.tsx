@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import SocialLinks from "./SocialLinks";
 
 export const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,9 +12,10 @@ export const Header = () => {
     <header className="w-full fixed top-0 left-0 z-[100] bg-first">
       <nav className="flex justify-between items-center h-12 px-4 sm:px-8">
         <div>
-          <a href="#" className="text-white text-lg font-bold">
+          {/* <a href="#" className="text-white text-lg font-bold">
             Emanuela Markovic
-          </a>
+          </a> */}
+          <SocialLinks />
         </div>
 
         {/* Desktop Navigation */}
