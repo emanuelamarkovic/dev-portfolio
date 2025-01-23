@@ -13,9 +13,9 @@ const About = () => {
     >
       <div className="wrapper px-20 py-40 mx-auto max-w-screen-xl">
         <article className="grid grid-cols-1 md:grid-cols-4 gap-4">
-          <div className="col-span-4  bg-white text-center mb-8">
-            <h2 className="text-3xl font-bold text-first">About Me</h2>
-            <p className="text-lg mt-4 max-w-3xl mx-auto text-first">
+          <div className="col-span-4 bg-gray-100 bg-opacity-50 text-center mb-4">
+            <h2 className="text-3xl font-bold text-first mt-8">About Me</h2>
+            <p className="text-lg mt-4 max-w-3xl mx-auto text-first mb-4">
               Hi, I'm Emanuela. I specialize in full-stack web development. I
               love solving complex problems and building user-friendly
               applications with modern technologies like React, Node.js, and
@@ -30,7 +30,7 @@ const About = () => {
             <div className="h-1 w-40 bg-primary mx-auto mt-2" />
           </div>
 
-          <div className="col-span-4 bg-white bg-opacity-90 p-8">
+          <div className="col-span-4 bg-gray-100 bg-opacity-50 p-8">
             <h4 className="text-2xl font-semibold text-center mb-4 text-first">
               My name is Emanuela.
             </h4>
@@ -51,7 +51,7 @@ const About = () => {
             <div className="h-1 w-40 bg-primary mx-auto mt-2" />
           </div>
 
-          <div className="bg-white bg-opacity-90 p-8">
+          <div className="col-span-4 bg-gray-100 bg-opacity-50 p-8">
             <h4 className="text-2xl font-semibold text-center mb-4 text-first">
               I'm a web developer.
             </h4>
