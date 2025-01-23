@@ -28,15 +28,15 @@ const Project: React.FC<ProjectProps> = ({
   };
 
   return (
-    <div className="project mb-8 p-8 rounded-lg shadow-md grid grid-cols-1 sm:grid-cols-2 gap-8">
+    <div className="project mb-8 p-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
       <a
-        className="project-link block mx-auto my-0 text-foreground overflow-hidden text-center rounded-full border border-gray-100 shadow-lg transition-all duration-300 hover:shadow-[0_50px_15px_-30px_rgba(37,41,52,.5)] hover:scale-105"
+        className="project-link block mx-auto my-0  overflow-hidden text-center rounded-full  shadow-lg transition-all duration-300 hover:shadow-[0_50px_15px_-30px_rgba(37,41,52,.5)] hover:scale-1"
         href={link}
         target="_blank"
         rel="noopener noreferrer"
       >
         <img
-          className="project-image w-48 h-48 rounded-full transform scale-[1.2] filter grayscale transition-all duration-300 hover:scale-[1.05] hover:grayscale-0 object-cover"
+          className="project-image w-60 h-60 transform scale-[1.05] filter grayscale transition-all duration-300 hover:scale-[1.1] hover:grayscale-0 object-cover"
           src={img}
           alt={`Screenshot of ${title}`}
         />
@@ -44,7 +44,7 @@ const Project: React.FC<ProjectProps> = ({
 
       <div className="project-details flex flex-col justify-center">
         <div className="project-tile text-xl font-bold text-text mb-2">
-          <p className="icons text-foreground mb-2">
+          <p className="icons text-first mb-2">
             {tech.split(" ").map((t) => (
               <i className={techIcons[t]} key={t} />
             ))}
