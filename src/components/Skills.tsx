@@ -17,7 +17,7 @@ export const Skills = () => {
     >
       <div className="wrapper px-20 py-40 mx-auto max-w-screen-xl">
         <article className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          <div className="skills-box bg-opacity-90 p-8 rounded-2xl shadow-xl">
+          <div className="skills-box bg-opacity-90 p-8 shadow-xl">
             <h3 className="text-3xl font-bold text-center text-text mb-6">
               Development Skills
             </h3>
@@ -57,7 +57,7 @@ export const Skills = () => {
             <img
               src="/images/hardskills.webp"
               alt="Skills illustration"
-              className="rounded-2xl shadow-2xl w-full h-auto"
+              className="shadow-2xl w-full h-auto"
             />
           </div>
         </article>
